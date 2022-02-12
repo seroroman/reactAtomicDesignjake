@@ -15,7 +15,9 @@ export const SearchInput = () => {
 
 const SContainer = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
+  padding: 24px;
 `;
 
 const SButtonWrapper = styled.div`
