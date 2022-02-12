@@ -10,16 +10,11 @@ const users = [...Array(50).keys()].map((val) => {
     email: "test.gmail.com",
     phone: "000-000",
     company: {
-      name: "テスト会社"
+      name: `テスト会社-${val}`
     },
     website: "https://google.com"
   };
 });
-// const user = [...Array(10)].map((val) => {
-//   return {};
-// });
-const user = [...Array(100).keys()];
-console.log(user);
 
 export const Users = () => {
   return (
